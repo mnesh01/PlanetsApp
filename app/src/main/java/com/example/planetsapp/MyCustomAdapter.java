@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class MyCustomAdapter extends ArrayAdapter<Planet> {
     // class is for custom layout to populate
-    // use of custom adapter so as to populate my modal class
+    // use of custom adapter so as to populate  modal class
 
     //we use arraylist as we need a data structure that grows or shrinks when removed
     private ArrayList<Planet> planetsArrayList;
