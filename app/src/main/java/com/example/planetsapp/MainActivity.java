@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         Planet planet7 = new Planet("Uranus", "27 Moons", R.drawable.uranus);
         Planet planet8 = new Planet("Neptune", "14 Moons", R.drawable.neptune);
+        Planet planet9 = new Planet("Pluto","5 Moons", R.drawable.pluto);
 
         planetsArrayList.add(planet1);
         planetsArrayList.add(planet2);
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         planetsArrayList.add(planet6);
         planetsArrayList.add(planet7);
         planetsArrayList.add(planet8);
+        planetsArrayList.add(planet9);
 
         // Adapter
         adapter = new MyCustomAdapter(planetsArrayList, getApplicationContext());
